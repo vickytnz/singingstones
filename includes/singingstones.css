@@ -1,0 +1,49 @@
+ul.inline , ul.inline li, ul.inline li a {
+/* Setting a common base */
+margin: 0;
+padding: 0;
+}
+
+ul.inline li {
+  display: inline-block;
+  text-align: center;
+  vertical-align: middle;
+  /* For IE 7 */
+  zoom: 1;
+  *display: inline;
+
+
+}
+
+ul.inline li a {
+color: black;
+text-decoration: none;
+padding-top: 10px;
+display: inline-block;
+width: 60px;
+min-height: 50px;
+background: #ccc;
+text-align: center;
+vertical-align: middle;
+/* For IE 7 */
+zoom: 1;
+*display: inline;
+}
+
+
+ul.inline a span {
+  display: block;
+  margin-top: 5px;
+  clear: left;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+ul.inline-small  li a {
+  min-height: 30px;
+  width: 60px;
+}
+
+.selected {
+  background: #000 !important;
+  color: white !important;
+}

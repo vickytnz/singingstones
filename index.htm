@@ -1,0 +1,84 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!-- saved from url=(0042)http://www.softsynth.com/webaudio/tone.php -->
+<html xmlns="http://www.w3.org/1999/xhtml"><head><meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<link rel="stylesheet" href="includes/reset.css" type="text/css">
+<link rel="stylesheet" href="includes/singingstones.css" type="text/css">
+<title>Singing Stones</title>
+
+<!-- extra head -->
+
+
+</head>
+<body>
+<div id="container">
+<div id="header">
+  <div id="leftheader"></div>
+  <div id="rightheader">
+  </div>
+  <div id="midheader">
+    <h1>Singing Stones</h1>
+<p>An HTML rewrite of my 2005 university project investigating making music easier to understand.</p>
+  </div>
+  <br class="clearfloat">
+</div>
+<!-- Left Side Navigation ******************************** -->
+<div id="leftside">
+</div>
+<!-- Right Side Display ******************************** -->
+<div id="rightside">
+  <div id="rightside_inner">
+
+
+
+  </div>
+</div>
+<div id="content">
+<!-- Begin Content DIV ******************************** -->
+
+
+<script type="text/javascript" src="includes/webaudio_tools.js"> </script>
+<script type="text/javascript" src="includes/tone.js"></script>
+
+
+<p>Roll mouse over the paragraphs below to start and stop sound.</p>
+<ul class="inline">
+<li> <a href='#' id="do"  onmouseover="startTone(130.81)" onmouseout="stopTone()">Do <span /></a></li>
+<li> <a href='#' id="re"  onmouseover="startTone(146.83)" onmouseout="stopTone()">Re <span /></a></li>
+<li> <a href='#' id="mi"  onmouseover="startTone(164.81)" onmouseout="stopTone()">Mi <span /></a></li>
+<li> <a href='#' id="fa"  onmouseover="startTone(174.61)" onmouseout="stopTone()">Fa <span /></a></li>
+<li> <a href='#' id="so"  onmouseover="startTone(196)" onmouseout="stopTone()">So <span /></a></li>
+<li> <a href='#' id="la"  onmouseover="startTone(220)" onmouseout="stopTone()">La <span /></a></li>
+<li> <a href='#' id="ti"  onmouseover="startTone(246.94)" onmouseout="stopTone()">Ti <span /></a></li>
+<li> <a href='#' id="do2"  onmouseover="startTone(261.62)" onmouseout="stopTone()">Do <span /></a></li>
+</ul>
+<div id="soundStatus"></div>
+
+<p>Roll over the keys to change the key the stones are in</p>
+<ul class="inline inline-small">
+<li> <a href='#' id="C" onmouseover="changeKey(0)">C</a></li>
+<li> <a href='#' id="C#/Db" onmouseover="changeKey(1)">C#/Db</a></li>
+<li> <a href='#' id="D" onmouseover="changeKey(2)">D</a></li>
+<li> <a href='#' id="D#/Eb" onmouseover="changeKey(3)">D#/Eb</a></li>
+<li> <a href='#' id="E" onmouseover="changeKey(4)">E</a></li>
+<li> <a href='#' id="F" onmouseover="changeKey(5)">F</a></li>
+<li> <a href='#' id="F#/Gb" onmouseover="changeKey(6)">F#/Gb</a></li>
+<li> <a href='#' id="G" onmouseover="changeKey(7)">G</a></li>
+<li> <a href='#' id="G#/Ab" onmouseover="changeKey(8)">G#/A#</a></li>
+<li> <a href='#' id="A" onmouseover="changeKey(9)">A</a></li>
+<li> <a href='#' id="A#/Bb" onmouseover="changeKey(10)">A#/Bb</a></li>
+<li> <a href='#' id="B" onmouseover="changeKey(11)">B</a></li>
+</ul>
+
+<p>Set major or minor</p>
+<ul class="inline inline-small keytype">
+<li><a href='#' id="maj" class="selected" onmouseover="setScale('maj')">Major</a></li>
+<li><a href='#' id="min" class="" onmouseover="setScale('min')">Minor</a></li>
+</ul>
+<br class="clearfloat">
+<p>Example uses <a href="http://www.softsynth.com/webaudio/tone.php">webaudio_tools.js from Soft Synth</a>.</p>
+
+<!-- end content div ******************************** -->
+</div>
+
+<!-- end container div ******************************** -->
+</div>
